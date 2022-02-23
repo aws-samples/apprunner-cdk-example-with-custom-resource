@@ -1,11 +1,20 @@
-## My Project
+# CDK Example of App Runner with CustomResource
 
-TODO: Fill this README out!
+```bash
+## deploy
+npx cdk deploy AppRunnerStack
 
-Be sure to:
+## destory
+npx cdk destory AppRunnerStack
+```
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Why use CustomResource?
+
+This is used it to cover a gap in CFN where we don't have a resource to create AppRunner AutoScalingConfiguration (AutoScalingConfigurationArn).
+
+## Possible to set (VPC|CPU|Mem|AutoDeploy)?
+
+Yes, please see [stack/apprunner.ts](./stack/apprunner.ts)
 
 ## Security
 
@@ -14,4 +23,3 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
-

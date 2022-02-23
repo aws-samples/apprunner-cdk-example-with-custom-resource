@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "dependencies": {
+    "aws-cdk": "^2.13.0",
+    "aws-cdk-lib": "^2.13.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-apprunner": "^3.52.0",
+    "@types/node": "^17.0.19",
+    "esbuild": "^0.14.23",
+    "esbuild-register": "^3.3.2"
+  }
+}
